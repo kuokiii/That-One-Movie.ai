@@ -78,7 +78,7 @@ ThatOneMovie.ai combines the power of AI with the extensive TMDB movie database 
 - **Backend**: Next.js API Routes, Supabase
 - **Database**: PostgreSQL (via Supabase)
 - **Authentication**: Supabase Auth
-- **AI**: OpenRouter API
+- **AI**: OpenAI API
 - **Movie Data**: TMDB API
 - **Deployment**: Vercel
 
@@ -105,7 +105,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the GNU License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgements
 
