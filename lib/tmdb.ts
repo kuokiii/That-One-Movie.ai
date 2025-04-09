@@ -37,7 +37,7 @@ export interface TMDBGenre {
 
 export const fetchFromTMDB = async (endpoint: string, params: Record<string, string> = {}) => {
   const queryParams = new URLSearchParams(params).toString()
-  const url = `${TMDB_BASE_URL}${endpoint}?api_key=${process.env.TMDB_API_KEY}&${queryParams}`
+  const url = `${TMDB_BASE_URL}${endpoint}?api_key=${process.env.NEXT_PUBLIC_TMDB_API_KEY}&${queryParams}`
 
   try {
     const response = await fetch(url, {
